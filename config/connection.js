@@ -12,4 +12,6 @@ const sequelize = new Sequelize(
   }
 );
 
+console.log("password :>> ", process.env.DB_PASSWORD);
+
 module.exports = sequelize;

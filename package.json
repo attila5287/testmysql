@@ -1,7 +1,7 @@
 {
   "name": "library-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "working example to test tripmysql",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,13 +12,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "mysql2": "^2.2.1",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attila5287/testmysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/attila5287/testmysql/issues"
+  },
+  "homepage": "https://github.com/attila5287/testmysql#readme"
 }
